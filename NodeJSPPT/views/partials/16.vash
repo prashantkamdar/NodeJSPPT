@@ -1,0 +1,35 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        MEAN!
+    </div>
+
+    <div class="slide-content-2">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                MEAN is a combination of MongoDB, Express.js and Angular.js, all of which run upon Node.js
+            </li>
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Special frameworks written specially for the entire MEAN stack; e.g. <a href="http://mean.io/#!/" target="_blank">MEAN.IO</a>
+            </li>
+
+            <li class="slide-content-5">
+                <div class="col-md-2 col-md-offset-4">
+                    <img alt="MEAN stack" src="/images/meanstack.jpg" />
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+})
+})

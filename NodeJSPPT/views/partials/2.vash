@@ -1,0 +1,30 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        What is NODE.JS? 
+    </div>
+
+    <div class="">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Traditional Web Server
+            </li>
+        </ul>
+        
+        <div class="row">
+            <div class="col-md-2 col-md-offset-4">
+                <img alt="Traditional web server" src="/images/traditionalatm.png" />
+            </div>
+        </div>
+    </div>
+
+</div>
+
+})
+})

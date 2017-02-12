@@ -1,0 +1,102 @@
+﻿body {
+    padding-bottom: 50px;
+    font-family: MStarBodyLite;
+}
+
+@font-face {
+    font-family: "MStarBody";
+    src: url("/css/fonts/UniversNextforMORNPC-CnBd.ttf");
+}
+
+@font-face {
+    font-family: "MStarBodyItalic";
+    src: url("/css/fonts/UniversNextforMORNPC-CnBdIt.ttf");
+}
+
+@font-face {
+    font-family: "MStarBodyLite";
+    src: url("/css/fonts/UniversNextforMORNPC-CnLt.ttf");
+}
+
+@font-face {
+    font-family: "MStarBodyLiteItalic";
+    src: url("/css/fonts/UniversNextforMORNPC-CnLtIt.ttf");
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.layout-logo {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 60%;
+}
+
+.node-image {
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 15%;
+}
+
+.authordiv {
+    font-family: MStarBodyLite;
+    font-size: 24px;
+    margin-top: 35%;
+    margin-left: 45%;
+}
+
+.authordate {
+    left: 40px;
+}
+
+.footer-magin-10 {
+    margin-bottom: 10px;
+}
+
+.headline {
+    font-family: MStarBodyLite;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.slide-content-2 {
+    margin-top: 2%;
+}
+
+.slide-content-3 {
+    margin-top: 3%;
+}
+
+.slide-content-5 {
+    margin-top: 5%;
+}
+
+.slide-content-10 {
+    margin-top: 10%;
+}
+
+.glyphicon-red {
+    color: #FF0000;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.list-group li {
+    list-style-type: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.table-font {
+    font-size: 15px;
+}
+
+.margin-left-2 {    
+    margin-left:2%;
+}

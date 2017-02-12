@@ -1,0 +1,41 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        Modularity (Dependency Management) - Demo
+    </div>
+
+    <div class="slide-content-2">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Main entry point
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-4">
+                        <img alt="modulecaller" src="/images/modulecaller.png" />
+                    </div>
+                </div>
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Module
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-4">
+                        <img alt="modulecallee" src="/images/modulecallee.png" />
+                    </div>
+                </div>
+            </li>
+
+         </ul>
+
+    </div>
+
+</div>
+
+})
+})

@@ -1,0 +1,30 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        What is NODE.JS?
+    </div>
+
+    <div class="slide-content-2">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Node Web Server UML
+            </li>
+        </ul>
+
+        <div class="row">
+            <div class="col-md-2 col-md-offset-2">
+                <img alt="Node Web Server UML" src="/images/nodeuml.png" />
+            </div>
+        </div>
+    </div>
+
+</div>
+
+})
+})

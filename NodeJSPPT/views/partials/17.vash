@@ -1,0 +1,37 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        Disadvantages
+    </div>
+
+    <div class="slide-content-5">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Callback hell
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Cannot handle CPU intensive tasks very well
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Still very much in development; quick version changes
+            </li>
+
+
+        </ul>
+
+    </div>
+
+</div>
+
+})
+})

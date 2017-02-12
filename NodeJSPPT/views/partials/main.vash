@@ -1,0 +1,22 @@
+﻿@html.extend("/partials/layout/layoutmain", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <img alt="node" src="/images/node.png" class="node-image">
+
+    <div id="authordiv" class="row authordiv">
+        <div id="authorname" class="col-md-4">
+            - Prashant Kamdar
+        </div>
+        <br />
+        <div id="date" class="col-md-4 authordate">
+            30th Oct 2015
+        </div>
+    </div>
+
+</div>
+
+})
+})

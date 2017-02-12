@@ -1,0 +1,48 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        What is NODE.JS?
+    </div>
+
+    <div class="slide-content-5">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                It is an open-source, cross-platform runtime environment for executing JavaScript
+            </li>
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                It is based on non-blocking I/O, event-driven model that enables fast, scalable network applications
+            </li>
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Execution of server-side JavaScript using <strong>Google's V8 engine</strong>; predictable execution model
+            </li>
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Supports modular JavaScript
+            </li>
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Encourages non-blocking (asynchronous) code & inversion of control
+            </li>
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Can write both console applications as well as web applications using node
+            </li>
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                HTTP, Networking & Web Sockets are first class citizens
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+})
+})

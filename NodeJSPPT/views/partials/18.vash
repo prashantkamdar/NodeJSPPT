@@ -1,0 +1,46 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline" ng-click="ShowQ('FirstQ')">
+        Q & A & Prizes!
+    </div>
+
+    <div class="slide-content-5">
+        <ul class="list-group">
+
+            <li class="" ng-show="ShowFirstQ" ng-click="ShowQ('SecondQ')">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Which engine is used for compiling JavaScript in NODE.JS?
+            </li>
+
+            <li class="" ng-show="ShowSecondQ" ng-click="ShowQ('ThirdQ')">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                What is package.json in NODE.JS?
+            </li>
+
+            <li class="" ng-show="ShowThirdQ" ng-click="ShowQ('FourthQ')">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Which web framework is used in NODE.JS?
+            </li>
+
+            <li class="" ng-show="ShowFourthQ" ng-click="ShowQ('FifthQ')">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Name any one template engine for Express
+            </li>
+
+            <li class="" ng-show="ShowFifthQ">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Name any one disadvantage of NODE.JS
+            </li>
+           
+        </ul>
+
+    </div>
+
+</div>
+
+})
+})

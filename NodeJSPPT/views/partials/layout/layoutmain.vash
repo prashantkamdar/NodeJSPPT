@@ -1,0 +1,11 @@
+﻿
+    <hr />
+    
+    <section id="body">
+        
+        @html.block("body")
+
+    </section>
+
+
+    @html.block("scripts")

@@ -1,0 +1,37 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        Simple Web App - Demo
+    </div>
+
+    <div class="slide-content-5">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Get the "http" built-in library in a variable
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Create the server for the http variable and make it listen to a free port
+            </li>            
+            <li class="slide-content-2">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img alt="First web demo" src="/images/firstwebdemo.png" />
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+</div>
+
+})
+})

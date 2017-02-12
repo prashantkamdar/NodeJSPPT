@@ -1,0 +1,38 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        Express
+    </div>
+
+    <div class="slide-content-5">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                It is a minimal and flexible NODE.JS web application framework that provides a robust set of features for web and mobile applications
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                It helps to organize your web application into an MVC architecture on the server side
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Like ASP.NET is for .NET or Spring MVC for JAVA, Express is for NODE.JS
+            </li>
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                <a href="http://expressjs.com/" target="_blank">Express</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+})
+})

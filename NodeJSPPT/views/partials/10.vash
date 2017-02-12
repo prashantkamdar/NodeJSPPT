@@ -1,0 +1,40 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        NPM - Demo
+    </div>
+
+    <div class="slide-content-5">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Get the required package from <a href="https://www.npmjs.com/" target="_blank">npm</a>
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-4">
+                        <img alt="modulecaller" src="/images/npminstall.png" />
+                    </div>
+                </div>
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                ...and use it!
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-4">
+                        <img alt="modulecallee" src="/images/npmusage.png" />
+                    </div>
+                </div>
+            </li>
+
+        </ul>        
+    </div>
+
+</div>
+
+})
+})

@@ -1,0 +1,52 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        View Engines
+    </div>
+
+    <div class="slide-content-5">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Very difficult to write the HTML pages in Express directly
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Need to create "views" and pass data into them
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Install the desired view engine from NPM and set it using express.set("view engine","name")
+            </li>
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Many options & flavors available; select one which best suits your style
+            </li>
+
+            <li class="margin-left-2">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Jade - Most popular, HAML like structure
+            </li>
+            <li class="margin-left-2">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                EJS - Very similar to ASP.NET Web Forms
+            </li>
+            <li class="margin-left-2">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Vash - Closest to the ASP.NET MVC pages
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+})
+})

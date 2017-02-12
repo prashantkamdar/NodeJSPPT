@@ -1,0 +1,78 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        .NET v/s JAVA v/s NODE.JS
+    </div>
+
+    <div class="slide-content-10">
+
+        <div class="row">
+            <div class="col-md-7 col-md-offset-3 table-font" >
+                <table class="table table-bordered table-hover table-condensed">
+                    <thead>
+                        <tr>
+                            <th class="col-md-3 text-center">.NET</th>
+                            <th class="col-md-3 text-center">JAVA</th>
+                            <th class="col-md-3 text-center">NODE.JS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>IIS</td>
+                            <td>Tomcat</td>
+                            <td>Node.exe</td>
+                        </tr>
+                        <tr>
+                            <td>Visual Studio</td>
+                            <td>Eclipse</td>
+                            <td>Sublime/Webstorm/Visual Studio</td>
+                        </tr>
+                        <tr>
+                            <td>C#</td>
+                            <td>JAVA</td>
+                            <td>JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td>SQL</td>
+                            <td>MongoDB</td>
+                        </tr>
+                        <tr>
+                            <td>NuGET</td>
+                            <td>Maven</td>
+                            <td>NPM</td>
+                        </tr>
+                        <tr>
+                            <td>.sln</td>
+                            <td>pom.xml</td>
+                            <td>package.json</td>
+                        </tr>
+                        <tr>
+                            <td>ASP.NET Web Forms</td>
+                            <td>JSP, Wicket</td>
+                            <td>Express + EJS</td>
+                        </tr>
+                        <tr>
+                            <td>ASP.NET MVC/Razor</td>
+                            <td>Spring MVC, Struts</td>
+                            <td>Express + Jade/Razor</td>
+                        </tr>
+                        <tr>
+                            <td>AngularJS/Ember/KnockoutJS</td>
+                            <td>AngularJS/Ember/KnockoutJS</td>
+                            <td>AngularJS/Ember/KnockoutJS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+})
+})

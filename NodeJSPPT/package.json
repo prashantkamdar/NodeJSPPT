@@ -1,0 +1,14 @@
+{
+  "name": "NodeJSPPT",
+  "version": "0.0.0",
+  "description": "NodeJSPPT",
+  "main": "server.js",
+  "author": {
+    "email": "prashant.kamdar@morningstar.com",
+    "name": "Prashant Kamdar"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "vash": "^0.10.0"
+  }
+}

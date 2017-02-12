@@ -1,0 +1,20 @@
+﻿   
+    <hr />
+    <section id="body">
+
+        @html.block("body")
+
+    </section>
+
+    <footer class="navbar navbar-fixed-bottom footer-magin-10">
+        <div class="container">
+            <hr />
+            <div class="navbar-left">
+                <img alt="node" src="/images/nodesmall.png">
+            </div>
+            <div class="navbar-right">
+            
+            </div>
+        </div>
+    </footer>
+    @html.block("scripts")

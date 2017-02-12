@@ -1,0 +1,31 @@
+﻿@html.extend("/partials/layout/layout", function(model){
+
+@html.block("body", function(model){
+
+<div>
+
+    <div class="headline">
+        Express - Demo
+    </div>
+
+    <div class="slide-content-2">
+        <ul class="list-group">
+
+            <li class="">
+                <span class="glyphicon glyphicon-triangle-right glyphicon-red" aria-hidden="true"></span>
+                Demo
+            </li>
+
+            <li class="">
+                <div class="col-md-2">
+                    <img alt="Express demo" src="/images/expressdemoapp.png" />
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+})
+})
