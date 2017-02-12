@@ -1,4 +1,8 @@
-﻿# NodejsWebApp1
+﻿# NodeJSPPT
+
+This is a presentation made in NodeJS & AngularJS to explain basic concepts of NodeJS.
+
+The presentation also gives a comparison between Node & .net/Java.
 
 Steps to run the webapp:
 
